@@ -1,0 +1,5 @@
+{
+  "name": "Generative AI Code Assistant",
+  "description": "An AI-powered code intelligence platform for automated documentation generation, intelligent test creation, and context-aware developer Q&A.",
+  "requestFramePermissions": []
+}
