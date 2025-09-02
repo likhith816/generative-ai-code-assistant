@@ -53,46 +53,14 @@ It is built with scalability and modularity in mind, making it easy to extend wi
 
 ## 🏗 Architecture Overview  
 
-```mermaid
-flowchart TD
-    User[Developer] --> UI[Frontend (React/Vite)]
-    UI --> API[Backend (Node.js/Express)]
-    API --> AI[Generative AI Model]
-    AI --> API
-    API --> UI
-    UI --> User
-```
 
-- **Frontend**: Provides an editor and code preview  
-- **Backend**: Handles API calls and model responses  
-- **AI Model**: Generates and analyzes code  
-
----
-
-## 📂 Project Structure  
-
-```
-generative-ai-code-assistant/
-│── src/                # Source code
-│   ├── components/     # Reusable React components
-│   ├── pages/          # Application pages
-│   ├── services/       # API calls & AI integration
-│   └── utils/          # Helper functions
-│
-│── public/             # Static assets
-│── package.json        # Project dependencies
-│── vite.config.js      # Vite config (frontend)
-│── README.md           # Project documentation
-```
-
----
 
 ## 📦 Installation  
 
 Clone the repository and install dependencies:  
 
 ```bash
-git clone https://github.com/your-username/generative-ai-code-assistant.git
+git clone https://github.com/likhith816/generative-ai-code-assistant.git
 cd generative-ai-code-assistant
 npm install
 ```
